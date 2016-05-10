@@ -79,41 +79,42 @@ if (!$vd->isJson()) {
 					<?php
                     if ($vd->getMessaggioErrore() != null) {
                         ?>
-			<div class="error">
-				<p>
-				<div>
-					<?=
-                    $vd->getMessaggioErrore();
-                    ?>
+				<div class="error">
+					<p>
+					<div>
+						<?=
+		                $vd->getMessaggioErrore();
+		                ?>
+					</div>
+					</p>
 				</div>
-				</p>
-			</div>
-			<p>
-					<?php
-                    }
+				
+						<?php
+		                }
+		                ?>
+		                
+				<?php
+                if ($vd->getMessaggioConferma() != null) {
                     ?>
-					<?php
-                    if ($vd->getMessaggioConferma() != null) {
-                        ?>
-            </p>
-			<div class="confirm">
+		        
+				<div class="confirm">
+					<p>
+					<div>
+						<?=
+				        $vd->getMessaggioConferma();
+				        ?>
+					</div>
+					</p>
+				</div>
 				<p>
-				<div>
-					<?=
-		            $vd->getMessaggioConferma();
+					<?php
+		            }
 		            ?>
-				</div>
-				</p>
-			</div>
-			<p>
-				<?php
-                }
-                ?>
-				<?php
-                $content = $vd->getContentFile();
-                require "$content";
-                ?>
-            </p>
+					<?php
+		            $content = $vd->getContentFile();
+		            require "$content";
+		            ?>
+		        </p>
 
 			</div>
     </article>
