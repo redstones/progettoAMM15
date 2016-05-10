@@ -67,6 +67,5 @@
 					<input type="submit" value="Cambia" style ="margin-left: 150px;" class="formbutton"/>
 				</p>
 			</form>
-			</p>
+			
 </fieldset>
-
