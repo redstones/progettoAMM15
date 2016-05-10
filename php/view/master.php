@@ -65,18 +65,18 @@ if (!$vd->isJson()) {
                     ?>
                     <h3>Link Esterni</h3>
                    	 <div id="links">
-                   	 <ul>
-    					<li><a href="http://www.unica.it/">Universit&agrave; di Cagliari</a></li>
-    					<li><a href="http://corsi.unica.it/informatica/">Facolt&agrave; di Informatica</a></li>
-    					<li><a href="http://www.acmilan.com">AC Milan</a></li>
-					</ul>
+		               	 <ul>
+							<li><a href="http://www.unica.it/">Universit&agrave; di Cagliari</a></li>
+							<li><a href="http://corsi.unica.it/informatica/">Facolt&agrave; di Informatica</a></li>
+							<li><a href="http://www.acmilan.com">AC Milan</a></li>
+						</ul>
 					</div>					
 		</aside>
 	
 	 <!-- CONTENUTO DEL MASTER -->
 	 <article>
 		<div id="content" class="two-column with-left-sidebar">
-					<?php
+		<p>			<?php
                     if ($vd->getMessaggioErrore() != null) {
                         ?>
 				<div class="error">
@@ -106,7 +106,7 @@ if (!$vd->isJson()) {
 					</div>
 					</p>
 				</div>
-				<p>
+				
 					<?php
 		            }
 		            ?>
@@ -114,7 +114,7 @@ if (!$vd->isJson()) {
 		            $content = $vd->getContentFile();
 		            require "$content";
 		            ?>
-		        </p>
+	        </p>
 
 			</div>
     </article>
