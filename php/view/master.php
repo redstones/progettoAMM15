@@ -43,7 +43,7 @@ if (!$vd->isJson()) {
 			<header>
 				<div class="width" id="title">
 					<h1>
-						<img id="pngLogoL" alt="logo"/>
+						<img id="pngLogoL"/>
 						<a>Palmares AC Milan</a>
 					</h1>
 				</div>
