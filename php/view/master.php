@@ -124,7 +124,7 @@ if (!$vd->isJson()) {
 	<!--  FOOTER -->
 			<footer>
 					<ul>
-					<a>Progetto Amministrazione di Sistema - Massimiliano Lepori</a>
+					<p>Progetto Amministrazione di Sistema - Massimiliano Lepori</p>
 					<br><a href="http://www.acmilan.com/it/club/palmares">Palmares sito ufficiale AC Milan</a>
 					<br><a href="http://validator.w3.org/check?uri=referer">HTML Valid</a>
 						<a href="http://jigsaw.w3.org/css-validator/check/refer">CSS Valid</a>
