@@ -243,11 +243,10 @@ header h1 a, header h1 a:hover {
 }
 
 #pngLogoL{
-    /*background-image: url('../images/small_logo.png');*/
     background-repeat: no-repeat;
-    background-position: center left;
-    padding: 55px;
-    margin: 10px 0;
+background-position: left center;
+padding: 20px;
+margin: -76px 0px;
 }
 
 nav {
