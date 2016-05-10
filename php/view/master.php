@@ -105,7 +105,7 @@ if (!$vd->isJson()) {
 				</div>
 				</p>
 			</div>
-			<div>
+			<p>
 				<?php
                 }
                 ?>
@@ -113,7 +113,7 @@ if (!$vd->isJson()) {
                 $content = $vd->getContentFile();
                 require "$content";
                 ?>
-            </div>
+            </p>
 
 			</div>
     </article>
