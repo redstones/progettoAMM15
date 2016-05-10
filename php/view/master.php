@@ -43,7 +43,7 @@ if (!$vd->isJson()) {
 			<header>
 				<div class="width" id="title">
 					<h1>
-						<img src="../images/small_logo.png" id="pngLogoL" alt="logo"/>
+						<img href="http://www.acmilan.com" id="pngLogoL" alt="LOGO"/>
 						<a>Palmares AC Milan</a>
 					</h1>
 				</div>
@@ -123,12 +123,12 @@ if (!$vd->isJson()) {
 		
 	<!--  FOOTER -->
 			<footer>
-					<ul>
+					
 					<p>Progetto Amministrazione di Sistema - Massimiliano Lepori</p>
 					<br><a href="http://www.acmilan.com/it/club/palmares">Palmares sito ufficiale AC Milan</a>
 					<br><a href="http://validator.w3.org/check?uri=referer">HTML Valid</a>
 						<a href="http://jigsaw.w3.org/css-validator/check/refer">CSS Valid</a>
-					</ul>
+					
 			</footer>
 		</div>
 		</div>
