@@ -75,7 +75,7 @@ if (!$vd->isJson()) {
 	
 	 <!-- CONTENUTO DEL MASTER -->
 	 <article>
-		<section id="content" class="two-column with-left-sidebar">
+		<div id="content" class="two-column with-left-sidebar">
 					<?php
                     if ($vd->getMessaggioErrore() != null) {
                         ?>
@@ -115,7 +115,7 @@ if (!$vd->isJson()) {
                 ?>
             </p>
 
-			</section>
+			</div>
     </article>
 		<div class="clear">
 		</div>
