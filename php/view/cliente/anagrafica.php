@@ -1,14 +1,14 @@
 <fieldset>
-    <p>
+    
     <h2>Dati personali</h2>
 		<ul>
 		    <li><strong>Nome:</strong> <?= $user->getNome() ?></li>
 			<li><strong>Cognome:</strong> <?= $user->getCognome() ?></li>
 		</ul>
 	</h2>
-	</p>
 	
-	<p>
+	
+	
 	<h3>Indirizzo</h3>
 			<form method="post" action="cliente/anagrafica">	
 			<input type="hidden" name="cmd" value="indirizzo"/>
@@ -31,8 +31,8 @@
 				<input type="submit" value="Salva" style ="margin-left: 150px;" class="formbutton" />
 			</p>
 		</form>
-	</p>
-	<p>		
+	
+			
 			<h3>Contatti</h3>
 			<form method="post" action="cliente/anagrafica">
 			<input type="hidden" name="cmd" value="email"/>
@@ -45,9 +45,9 @@
 					<input type="submit" value="Salva" style ="margin-left: 150px;" class="formbutton"/>
 				</p>
 			</form>
-	</p>
+	
 
-	<p>		
+			
 			<h3>Password</h3>
 			<form method="post" action="cliente/anagrafica">
 			<input type="hidden" name="cmd" value="password"/>
@@ -65,5 +65,5 @@
 					<input type="submit" value="Cambia" style ="margin-left: 150px;" class="formbutton"/>
 				</p>
 			</form>
-	</p>
+	
 </fieldset>
