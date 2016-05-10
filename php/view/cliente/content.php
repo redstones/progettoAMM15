@@ -14,7 +14,7 @@ switch ($vd->getSottoPagina()) {
 <fieldset>
 <h2>Benvenuto, <?= $user->getNome() ?></h2>
 	<p>Scegli in che sezione andare:</p>
-	<ul class="panel" id="panel"> 
+	<ul class="blocklist"> 
 		<li><a href="cliente/anagrafica">I tuoi dati di registrazione</a></li>
 		<br><li><a href="cliente/coppa">Palmares AC Milan</a></li>
 	</ul>
