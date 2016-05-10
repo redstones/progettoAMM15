@@ -76,7 +76,7 @@ if (!$vd->isJson()) {
 	 <!-- CONTENUTO DEL MASTER -->
 	 <article>
 		<div id="content" class="two-column with-left-sidebar">
-		<p>			<?php
+					<?php
                     if ($vd->getMessaggioErrore() != null) {
                         ?>
 				<div class="error">
@@ -106,7 +106,7 @@ if (!$vd->isJson()) {
 					</div>
 					</p>
 				</div>
-				
+			
 					<?php
 		            }
 		            ?>
@@ -114,7 +114,7 @@ if (!$vd->isJson()) {
 		            $content = $vd->getContentFile();
 		            require "$content";
 		            ?>
-	        </p>
+	        
 
 			</div>
     </article>
