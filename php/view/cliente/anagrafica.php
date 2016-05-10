@@ -32,28 +32,25 @@
 			</p>
 		</form>
 	</p>
-			
+	<p>		
 			<h3>Contatti</h3>
-			<p>
-				<form method="post" action="cliente/anagrafica">
-				<input type="hidden" name="cmd" value="email"/>
-			</p>
-			<p>
-				<label for="email">Email:</label>
-				<input type="text" name="email" id="email"value="<?= $user->getEmail() ?>"/>
-			</p>
-			<br>
-			<p>
-				<input type="submit" value="Salva" style ="margin-left: 150px;" class="formbutton"/>
-			<p>
-				</form>
-			</p>
+			<form method="post" action="cliente/anagrafica">
+			<input type="hidden" name="cmd" value="email"/>
+				<p>
+					<label for="email">Email:</label>
+					<input type="text" name="email" id="email"value="<?= $user->getEmail() ?>"/>
+				</p>
+				<br>
+				<p>
+					<input type="submit" value="Salva" style ="margin-left: 150px;" class="formbutton"/>
+				</p>
+			</form>
+	</p>
 
-			
+	<p>		
 			<h3>Password</h3>
-			
-				<form method="post" action="cliente/anagrafica">
-				<input type="hidden" name="cmd" value="password"/>
+			<form method="post" action="cliente/anagrafica">
+			<input type="hidden" name="cmd" value="password"/>
 				<p>
 					<label for="pass1">Nuova Password:</label>
 					<input type="password" name="pass1" id="pass1"/>
@@ -68,5 +65,5 @@
 					<input type="submit" value="Cambia" style ="margin-left: 150px;" class="formbutton"/>
 				</p>
 			</form>
-			
+	</p>
 </fieldset>
