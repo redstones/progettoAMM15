@@ -19,7 +19,3 @@ switch ($vd->getSottoPagina()) {
 		<br><li><a href="cliente/coppa">Palmares AC Milan</a></li>
 	</ul>
 </fieldset>
-<?php
-        break;
-}
-?>
