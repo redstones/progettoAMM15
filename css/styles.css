@@ -243,7 +243,7 @@ header h1 a, header h1 a:hover {
 }
 
 #pngLogoL{
-    background-image: url('../images/small_logo.png');
+    /*background-image: url('../images/small_logo.png');*/
     background-repeat: no-repeat;
     background-position: center left;
     padding: 55px;
