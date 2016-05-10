@@ -65,7 +65,7 @@ if (!$vd->isJson()) {
                     ?>
                     <h3>Link Esterni</h3>
                    	 <div id="links">
-		               	 <ul>
+		               	 <ul class="blocklist">
 							<li><a href="http://www.unica.it/">Universit&agrave; di Cagliari</a></li>
 							<li><a href="http://corsi.unica.it/informatica/">Facolt&agrave; di Informatica</a></li>
 							<li><a href="http://www.acmilan.com">AC Milan</a></li>
