@@ -13,9 +13,7 @@
         <input type="password" name="password" id="password">
         </p>
         <br>
-        <p>
-          <input type="submit" value="Login" style="margin-left: 150px;" class="formbutton">
-        </p><p>
-
-    </p></form>
+        <p><input type="submit" value="Login" style="margin-left: 150px;" class="formbutton">
+        </p>
+   </form>
 </fieldset>
