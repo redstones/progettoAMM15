@@ -25,6 +25,7 @@ SET time_zone = "+00:00";
 --
 -- Struttura della tabella `categorie`
 --
+CREATE SCHEMA amm15_leporiMassimilia;
 
 CREATE TABLE IF NOT EXISTS `categorie` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
