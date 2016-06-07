@@ -18,8 +18,8 @@
 	</p>
 	<br>
 	<p>
-		<button type="submit" name="cmd" value="coppa_nuovo" style ="margin-left: 150px;" class="formbutton">Salva Coppa</button>
-		<button type="submit" name="cmd" value="a_annulla" style ="margin-left: 60px;" class="formbutton">Annulla</button>
+		<input type="submit" value="Inserisci Coppa" style="margin-left: 150px;" class="formbutton">
+		<input type="submit" value="Annulla" style="margin-left: 150px;" class="formbutton">
 	</p>
 	</form>
 </fieldset>
